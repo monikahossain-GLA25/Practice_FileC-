@@ -2,13 +2,17 @@
   <Project Path="Abstraction/Abstraction.csproj" Id="e30efb3e-c8b1-469e-830e-a1a416851413" />
   <Project Path="CallByValue/CallByValue.csproj" Id="8eb85d94-ce05-42ae-a784-2eaf45aea024" />
   <Project Path="Constructor/Constructor.csproj" Id="5d80156d-28dc-4f3d-8149-cbe5e4d2edb4" />
+  <Project Path="Dictionary/Dictionary.csproj" Id="e1ca6061-242a-4203-9dfa-67ebda55edd9" />
   <Project Path="Function/Function.csproj" Id="2682e347-803c-4331-a20c-8a73bda1dd16" />
   <Project Path="InheritanceConsoleApp/InheritanceConsoleApp.csproj" Id="2e68d574-4a90-4908-8fd3-12f09aa17c4d" />
+  <Project Path="Interface/Interface.csproj" Id="6a7d20f2-7513-4dfc-b43e-657163a17625" />
+  <Project Path="interfacepolymor/interfacepolymor.csproj" Id="c0f1a50b-8ff5-4b0c-9f57-d2b8a3afac91" />
   <Project Path="Lists/Lists.csproj" Id="835db468-6377-4d6e-80a0-761c2c24ff7f" />
   <Project Path="Polymorphisom/Polymorphisom.csproj" Id="a4cbec0f-cf0c-4c63-bf3f-4707a021c3df" />
   <Project Path="Practice/Practice.csproj" Id="68dad197-61a9-43e3-aafe-75bc3e2bddb3" />
   <Project Path="Reference_Variable/Reference_Variable.csproj" Id="e59fd5ae-8ee9-429e-a656-42d55c17e08f" />
   <Project Path="Sealed/Sealed.csproj" Id="7a0b142e-a695-46fb-a105-9d936b01d464" />
   <Project Path="STATICCLASS/STATICCLASS.csproj" Id="93626aa0-bf73-44fc-9cfd-c259cf4b4fdf" />
+  <Project Path="StaticFunction/StaticFunction.csproj" Id="06c133f3-9578-491e-8475-b861a11db03d" />
   <Project Path="stringwhie/stringwhie.csproj" Id="c0d4def0-04ac-49bf-933d-aa47a2511a9d" />
 </Solution>
