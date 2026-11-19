@@ -17,7 +17,7 @@ namespace LogicApp
             {
                 Console.WriteLine("You Can Play");
             }
-            else if (homeworkDone || roomCleaned)
+            else 
             {
                 Console.WriteLine("Finish your Task");
             }
@@ -36,30 +36,26 @@ namespace LogicApp
             }
             //Check an age range — AND
             int age = 18;
-            if (age >= 30)
+            if (age >= 18 && age <= 30)
             {
                 Console.WriteLine("Age accepted");
             }
-            else if(age >= 12 && age <=18)
-            {
-                Console.WriteLine("Age is not accepted");
-            }
             else
             {
-                Console.WriteLine("You are a child");
+                Console.WriteLine("Age not accepted");
             }
             //Join a programming course — AND with OR
             int agee = 20;
             bool knowsCSharp = false;
             bool knowsPython = true;
 
-           if(agee >= 18 || (knowsCSharp || knowsPython))
+            if (agee >= 18 && (knowsCSharp || knowsPython))
             {
                 Console.WriteLine("Can join");
             }
-            else if(agee<= 18 && (knowsCSharp && knowsPython))
+            else
             {
-                Console.WriteLine("Can't join.");
+                Console.WriteLine("Cannot join");
             }
 
             //Enter an event — two possible routes
@@ -68,12 +64,11 @@ namespace LogicApp
 
             bool isGuest = true;
             bool hasInvitation = true;
-
-            if((hasTicket || hasId) || (isGuest || hasInvitation))
+            if ((hasTicket && hasId) || (isGuest && hasInvitation))
             {
                 Console.WriteLine("Entry allowed");
             }
-            else if((hasTicket && hasId) || (isGuest && !hasInvitation))
+            else
             {
                 Console.WriteLine("Entry denied");
             }
