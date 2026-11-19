@@ -170,6 +170,27 @@ namespace CSharpConceptBoldLab.Linq
                 Console.WriteLine($"Employee Name: {item.EmployeeName}, Department Name: {item.DepartmentName}, Employee Job: {item.EmployeeJob}, Employee Salary: {item.EmployeeSalary}");
 
             }
+
+
+            //10. op 2 highest-paid employees from Dhaka who are at least 25 years old.
+            //Return only:
+            //Name
+            //Job
+            //Salary
+            var topEmployee = emp.Where(e => e.City == "Dhaka" && e.Age >= 25).OrderByDescending(e => e.Salary).Take(2)
+                .Select(
+                e => new
+                {
+                    e.Name,
+                    e.Job,
+                    e.Salary
+                });
+            foreach(var topPaid in topEmployee)
+            {
+                Console.WriteLine($"Name: {topPaid.Name}, Job: {topPaid.Job}, Salary: {topPaid.Salary}");
+            }
+
+
         }
     }
 }

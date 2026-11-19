@@ -4,10 +4,13 @@
   <Project Path="Constructor/Constructor.csproj" Id="5d80156d-28dc-4f3d-8149-cbe5e4d2edb4" />
   <Project Path="Dictionary/Dictionary.csproj" Id="e1ca6061-242a-4203-9dfa-67ebda55edd9" />
   <Project Path="Function/Function.csproj" Id="2682e347-803c-4331-a20c-8a73bda1dd16" />
+  <Project Path="Generic/Generic.csproj" Id="cde7ed52-bb4b-4b4b-857e-ffe5bba309d8" />
   <Project Path="InheritanceConsoleApp/InheritanceConsoleApp.csproj" Id="2e68d574-4a90-4908-8fd3-12f09aa17c4d" />
   <Project Path="Interface/Interface.csproj" Id="6a7d20f2-7513-4dfc-b43e-657163a17625" />
   <Project Path="interfacepolymor/interfacepolymor.csproj" Id="c0f1a50b-8ff5-4b0c-9f57-d2b8a3afac91" />
+  <Project Path="Linq-QUERY/Linq-QUERY.csproj" Id="32c992fb-dc4e-426c-9e2a-ecffdb0e9969" />
   <Project Path="Lists/Lists.csproj" Id="835db468-6377-4d6e-80a0-761c2c24ff7f" />
+  <Project Path="LogicApp/LogicApp.csproj" Id="7ee40653-5c1e-4307-bbe0-6db0beeeaa58" />
   <Project Path="Polymorphisom/Polymorphisom.csproj" Id="a4cbec0f-cf0c-4c63-bf3f-4707a021c3df" />
   <Project Path="Practice/Practice.csproj" Id="68dad197-61a9-43e3-aafe-75bc3e2bddb3" />
   <Project Path="Reference_Variable/Reference_Variable.csproj" Id="e59fd5ae-8ee9-429e-a656-42d55c17e08f" />
