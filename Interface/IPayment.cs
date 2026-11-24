@@ -17,7 +17,28 @@ namespace Interface
             Console.WriteLine($"Paid {amount} in cash.");
         }
     }
-   public class CardPayment : IPayment
+    public interface INotificationService
+    {
+        void SendMessage(string message);
+    }
+
+
+    public class EmailNotification : INotificationService
+    {
+        public void SendMessage(string message)
+        {
+            Console.WriteLine("Email : " +message);
+        }
+    }
+    public class SmsNotification : INotificationService
+    {
+        public void SendMessage(string message)
+        {
+            Console.WriteLine("SMS: " + message);
+        }
+    }
+
+    public class CardPayment : IPayment
     {
         public void Pay(decimal amount)
         {
@@ -41,6 +62,13 @@ namespace Interface
             cardPayment.Pay(200);
             IPayment mobileBanking = new MobileBanking();
             mobileBanking.Pay(300);
+
+
+            INotificationService email = new EmailNotification();
+            INotificationService sms = new SmsNotification();
+
+            email.SendMessage("Your report is ready.");
+            sms.SendMessage("Your OTP is 482910.");
         }
     }
 }
