@@ -3,8 +3,11 @@
   <Project Path="CallByValue/CallByValue.csproj" Id="8eb85d94-ce05-42ae-a784-2eaf45aea024" />
   <Project Path="Constructor/Constructor.csproj" Id="5d80156d-28dc-4f3d-8149-cbe5e4d2edb4" />
   <Project Path="Dictionary/Dictionary.csproj" Id="e1ca6061-242a-4203-9dfa-67ebda55edd9" />
+  <Project Path="Employee/Employee.csproj" Id="3368c160-8a2e-4829-aa62-034169c5fda4" />
+  <Project Path="EmployeeDress/EmployeeDress.csproj" Id="631c1f87-134d-42fc-b77d-0845680b6f39" />
   <Project Path="Function/Function.csproj" Id="2682e347-803c-4331-a20c-8a73bda1dd16" />
   <Project Path="Generic/Generic.csproj" Id="cde7ed52-bb4b-4b4b-857e-ffe5bba309d8" />
+  <Project Path="Increment_Decreement/Increment.csproj" Id="2a842454-7895-4d9e-af9e-0d11b36524ae" />
   <Project Path="InheritanceConsoleApp/InheritanceConsoleApp.csproj" Id="2e68d574-4a90-4908-8fd3-12f09aa17c4d" />
   <Project Path="Interface/Interface.csproj" Id="6a7d20f2-7513-4dfc-b43e-657163a17625" />
   <Project Path="interfacepolymor/interfacepolymor.csproj" Id="c0f1a50b-8ff5-4b0c-9f57-d2b8a3afac91" />
