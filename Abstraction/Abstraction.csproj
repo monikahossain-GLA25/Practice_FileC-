@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="EmployeeDress.cs" />
     <Compile Remove="MathOperations.cs" />
     <Compile Remove="Payment.cs" />
     <Compile Remove="Program.cs" />
