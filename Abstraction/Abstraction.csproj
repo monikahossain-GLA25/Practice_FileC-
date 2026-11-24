@@ -9,8 +9,13 @@
 
   <ItemGroup>
     <Compile Remove="MathOperations.cs" />
+    <Compile Remove="Payment.cs" />
     <Compile Remove="Program.cs" />
+    <Compile Remove="property.cs" />
     <Compile Remove="Shape.cs" />
+    <Compile Remove="Student.cs" />
+    <Compile Remove="UndergraduateStudent.cs" />
+    <Compile Remove="UPIPayment.cs" />
   </ItemGroup>
 
 </Project>
